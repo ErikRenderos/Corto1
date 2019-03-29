@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contador de productos"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:fontFamily="casual"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:columnCount="3"
+        >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 1\n#"
+            android:background="#bc1f26"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 2\n#"
+            android:background="#8b164f"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 3\n#"
+            android:background="#4b2087"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 4\n#"
+            android:background="#30268d"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 5\n#"
+            android:background="#172b7a"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 6\n#
+"
+            android:background="#004b9c"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 7\n#
+"
+            android:background="#005996"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 8\n#"
+            android:background="#006063"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 9\n#"
+            android:background="#004e43"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#000"
+        android:text="Usuario" />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#000"
+        android:text="Correo electronico" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"/>
+
+</LinearLayout>
